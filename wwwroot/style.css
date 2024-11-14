@@ -1,0 +1,43 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+
+#game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    border: 2px solid white;
+}
+
+.snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #00FF00;
+}
+
+.food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FF0000;
+}
+
+.pontuacao {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.instrucao {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
